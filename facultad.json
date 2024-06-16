@@ -1,0 +1,40 @@
+{
+  "facultades":[
+      {
+          "id":1,
+          "nombre": "HHHHHHHHHHHHHHHH",
+          "sigla":"HHHH"
+      },
+      {
+          "id":2,
+          "nombre": "DDDDDDDDDDDDDDDDDD",
+          "sigla":"DDDD"
+      },
+      {
+          "id":3,
+          "nombre": "Facultad BBBBBBBBBBBBB",
+          "sigla":"BBBB"
+      },
+      {
+          "id":4,
+          "nombre": "Facultad AAAAAAAAAAAAA",
+          "sigla":"AAAA"
+      },
+      {
+          "id":1,
+          "nombre": "Facultad CCCCCCCCCCCC",
+          "sigla":"CCCC"
+      },
+      {
+          "id":1,
+          "nombre": "Facultad TTTTTTTTTTTTTT",
+          "sigla":"TTTT"
+      },
+      {
+          "id":1,
+          "nombre": "Facultad PPPPPPPPPPPP",
+          "sigla":"PPPP"
+      }
+
+  ]
+}

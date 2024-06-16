@@ -1,0 +1,31 @@
+<section
+  class="min-h-screen bg-center bg-cover bg-blend-overlay h-screen flex"
+  style="background-image: url('../../../../assets/images/imagenLogin.jpg')"
+>
+    <aside class="bg-red-600 w-[15%] h-full flex-col p-3">
+      <h3 class="text-3xl pt-3 font-semibold text-center">
+        Adminstración General
+      </h3>
+      <nav class="mt-8 flex-col bg-red-300 rounded-lg">
+        <a *ngFor="let item of sidebarItems" [routerLink]="item.url" class="w-full mt-2 rounded-lg flex gap-3 p-3 text-2xl font-black hover:bg-red-900 cursor-pointer">
+          {{ item.name }}
+        </a>
+      </nav>
+
+    </aside>
+
+    <section class="h-full w-[85%] ">
+      <header class="bg-red-600/60 h-[10%] flex justify-between">
+        <h3 class="text-3xl font-black text-white px-5 pt-3">Universidad "Univ System"</h3>
+        <h3 class="text-3xl font-black px-5 pt-3 hover:bg-red-900/70 cursor-pointer bg-red-700/70">Logout</h3>
+      </header>
+      <section class="h-[90%]" >
+        <router-outlet></router-outlet>
+
+      </section>
+
+    </section>
+
+</section>
+
+
